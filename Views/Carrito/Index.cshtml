@@ -3,18 +3,43 @@
     ViewData["SubTitle"] = "Listado";
 }
 
-<h2 class="text-center mb-3">@ViewData["Title"] 
+<div id="carrito-wrapper" data-api-base-url="@ViewBag.Url">
+
+<h2 class="text-center mb-3">
+    @ViewData["Title"]
     <small class="text-muted fs-5">@ViewData["SubTitle"]</small>
 </h2>
 
 <div class="row small mb-3">
-    <div class="col text-end">
+    <div class="col text-end" id="resumen-carrito">
         Mostrando 0 elementos
     </div>
 </div>
 
-<div class="mt-5">
+<div id="contenedor-carrito" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"></div>
+
+<div id="alerta-vacio" class="mt-5" style="display:none;">
     <div class="alert alert-warning" role="alert">
         No se han encontrado elementos. Inténtelo de nuevo más tarde.
     </div>
 </div>
+
+<form id="form-carrito" method="post" asp-controller="Carrito" asp-action="Comprar">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="carritoJson" id="carritoJson" />
+    <button type="submit" class="btn btn-success mt-3">Finalizar Compra</button>
+</form>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-@TempData["TipoMensaje"] alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+    </div>
+}
+
+</div>
+
+@section Scripts {
+    <script src="~/js/carrito.js"></script>
+}

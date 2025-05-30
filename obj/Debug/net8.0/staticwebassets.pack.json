@@ -1,51 +1,59 @@
 {
   "Files": [
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\css\\site.css",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\favicon.svg",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\favicon.svg",
       "PackagePath": "staticwebassets\\favicon.svg"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel1.webp",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel1.webp",
       "PackagePath": "staticwebassets\\images\\carrusel1.webp"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel2.webp",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel2.webp",
       "PackagePath": "staticwebassets\\images\\carrusel2.webp"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel3.webp",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel3.webp",
       "PackagePath": "staticwebassets\\images\\carrusel3.webp"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel4.webp",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel4.webp",
       "PackagePath": "staticwebassets\\images\\carrusel4.webp"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\logo-dark.png",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\logo-dark.png",
       "PackagePath": "staticwebassets\\images\\logo-dark.png"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\logo.png",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\images\\netlogo.jpg",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\netlogo.jpg",
       "PackagePath": "staticwebassets\\images\\netlogo.jpg"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\js\\cambio_tema.js",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\cambio_tema.js",
       "PackagePath": "staticwebassets\\js\\cambio_tema.js"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\js\\portada.js",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\comprar.js",
+      "PackagePath": "staticwebassets\\js\\comprar.js"
+    },
+    {
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\portada.js",
       "PackagePath": "staticwebassets\\js\\portada.js"
     },
     {
-      "Id": "C:\\codigo\\frontendnet\\wwwroot\\js\\producto_portada.js",
+      "Id": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\producto_portada.js",
       "PackagePath": "staticwebassets\\js\\producto_portada.js"
     },
     {

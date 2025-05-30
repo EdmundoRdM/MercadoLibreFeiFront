@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sXMxBdON5g4Fen9QVr0qJ7vZEY/0lpu067vxgJbd5Gs=",
+  "Hash": "lFMrIDTVHCz02XHw1+bmMXwA7ziMpMO64kc9PW2M2Tw=",
   "Source": "frontendnet",
   "BasePath": "_content/frontendnet",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "frontendnet\\wwwroot",
       "Source": "frontendnet",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\css\\site.css",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\css\\site.css",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\favicon.svg",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\favicon.svg",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "favicon.svg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.svg"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel1.webp",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel1.webp",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/carrusel1.webp",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\carrusel1.webp"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel2.webp",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel2.webp",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/carrusel2.webp",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\carrusel2.webp"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel3.webp",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel3.webp",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/carrusel3.webp",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\carrusel3.webp"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\carrusel4.webp",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\carrusel4.webp",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/carrusel4.webp",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\carrusel4.webp"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\logo-dark.png",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\logo-dark.png",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/logo-dark.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-dark.png"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\logo.png",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\images\\netlogo.jpg",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\images\\netlogo.jpg",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "images/netlogo.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\netlogo.jpg"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\js\\cambio_tema.js",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\cambio_tema.js",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "js/cambio_tema.js",
       "AssetKind": "All",
@@ -207,10 +207,48 @@
       "OriginalItemSpec": "wwwroot\\js\\cambio_tema.js"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\js\\portada.js",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\carrito.js",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
+      "BasePath": "_content/frontendnet",
+      "RelativePath": "js/carrito.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\carrito.js"
+    },
+    {
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\comprar.js",
+      "SourceId": "frontendnet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
+      "BasePath": "_content/frontendnet",
+      "RelativePath": "js/comprar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comprar.js"
+    },
+    {
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\portada.js",
+      "SourceId": "frontendnet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "js/portada.js",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\portada.js"
     },
     {
-      "Identity": "C:\\codigo\\frontendnet\\wwwroot\\js\\producto_portada.js",
+      "Identity": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\js\\producto_portada.js",
       "SourceId": "frontendnet",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\codigo\\frontendnet\\wwwroot\\",
+      "ContentRoot": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\wwwroot\\",
       "BasePath": "_content/frontendnet",
       "RelativePath": "js/producto_portada.js",
       "AssetKind": "All",

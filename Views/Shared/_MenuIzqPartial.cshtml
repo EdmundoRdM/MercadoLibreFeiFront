@@ -10,6 +10,9 @@
             <a class="nav-link" asp-controller="Carrito" asp-action="Index">
                 <i class="bi bi-cart"></i> Carrito
             </a>
+            <a class="nav-link" asp-controller="Carrito" asp-action="Index">
+                <i class="bi bi-bag"></i> Pedidos
+            </a>
         }
         else if (User.FindFirstValue(ClaimTypes.Role) == "Administrador")
         {

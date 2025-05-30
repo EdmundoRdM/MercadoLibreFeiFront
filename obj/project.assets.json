@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\edmun\\.nuget\\packages\\": {}
+    "C:\\Users\\migue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\codigo\\frontendnet\\frontendnet.csproj",
+      "projectUniqueName": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\frontendnet.csproj",
       "projectName": "frontendnet",
-      "projectPath": "C:\\codigo\\frontendnet\\frontendnet.csproj",
-      "packagesPath": "C:\\Users\\edmun\\.nuget\\packages\\",
-      "outputPath": "C:\\codigo\\frontendnet\\obj\\",
+      "projectPath": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\frontendnet.csproj",
+      "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+      "outputPath": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\edmun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

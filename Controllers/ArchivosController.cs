@@ -92,8 +92,18 @@ public class ArchivosController(ArchivosClientService archivos, IConfiguration c
         try
         {
             Archivo? itemToEdit = await archivos.GetAsync(id);
-            ViewBag.ArchivoId = itemToEdit.ArchivoId;
-            ViewBag.Nombre = itemToEdit.Nombre;
+
+            if (itemToEdit != null)
+            {
+                ViewBag.ArchivoId = itemToEdit.ArchivoId;
+                ViewBag.Nombre = itemToEdit.Nombre;
+            }
+            else
+            {
+                ViewBag.ArchivoId = null; // o algún valor por defecto si lo necesitas
+                ViewBag.Nombre = null;
+            }
+
             if (itemToEdit == null) return NotFound();
         }
         catch (HttpRequestException ex)

@@ -11,9 +11,12 @@
         <p class="card-text">@Model.Titulo</p>
         <h5 class="card-title">@Html.DisplayFor(model => model.Precio)</h5>
         <p class="card-text">
-            @foreach (var cat in Model.Categorias)
+            @if (Model.Categorias != null)
             {
-                <span class="badge rounded-pill text-bg-warning">@cat.Nombre</span>
+                foreach (var cat in Model.Categorias)
+                {
+                    <span class="badge rounded-pill text-bg-warning">@cat.Nombre</span>
+                }
             }
         </p>
         <p class="mt-auto card-text text-success fw-semibold small">
@@ -21,7 +24,23 @@
         </p>
     </div>
 
-    <div class="card-footer">
-        <a class="btn btn-primary btn-sm" href="#" role="button">Comprar</a>
+    <div class="card-footer d-flex justify-content-between align-items-center">
+        <form method="post" asp-controller="Comprar" asp-action="Comprar">
+            <input type="hidden" name="productoId" value="@Model.ProductoId" />
+            <input type="hidden" name="cantidad" value="1" />
+            <button class="btn btn-primary btn-sm" type="submit">Comprar</button>
+        </form>
+
+        <a href="#" class="text-white agregar-carrito"
+            data-id="@Model.ProductoId"
+            data-cantidad="1"
+            data-titulo="@Model.Titulo"
+            data-precio="@Model.Precio"
+            data-categorias="@string.Join(",", (Model.Categorias?.Select(c => c.Nombre) ?? Enumerable.Empty<string>()))"
+            data-archivoid="@Model.ArchivoId"
+            title="Agregar al carrito">
+            <i class="bi bi-cart-plus-fill fs-5"></i>
+        </a>
+
     </div>
 </div>

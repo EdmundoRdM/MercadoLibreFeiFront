@@ -13,9 +13,12 @@
         <p class="card-text">@Model.Titulo</p>
         <h5 class="card-title">@Html.DisplayFor(model => model.Precio)</h5>
         <p class="card-text">
-            @foreach (var cat in Model.Categorias)
+            @if (Model.Categorias != null)
             {
-                <span class="badge rounded-pill text-bg-warning">@cat.Nombre</span>
+                foreach (var cat in Model.Categorias)
+                {
+                    <span class="badge rounded-pill text-bg-warning">@cat.Nombre</span>
+                }
             }
         </p>
         <p class="mt-auto card-text text-success fw-semibold small">

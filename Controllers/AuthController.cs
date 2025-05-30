@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace frontendnet;
 
-public class AuthController(AuthClientService auth) : Controller
+public class AuthController(AuthClientService auth, CrearUsuarioClientService usuarioService) : Controller
 {
     [AllowAnonymous]
     public IActionResult Index()
@@ -35,7 +35,7 @@ public class AuthController(AuthClientService auth) : Controller
                     new("jwt", token.Jwt),
                     new(ClaimTypes.Role, token.Rol),
                 };
-                auth.IniciaSesionAsync(claims);
+                await auth.IniciaSesionAsync(claims);
                 // Usuario valido
                 if (token.Rol == "Administrador")
                     return RedirectToAction("Index", "Productos");
@@ -47,6 +47,36 @@ public class AuthController(AuthClientService auth) : Controller
                 ModelState.AddModelError("Email", "credenciales no válidas. Inténtelo nuevamente.");
             }
         }
+        return View(model);
+    }
+
+    [HttpGet]
+    public IActionResult CrearUsuario()
+    {
+        return View("CrearUsuario"); // Carga la vista de registro
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> CrearUsuario(CrearUsuario model)
+    {
+        if (ModelState.IsValid)
+        {
+            try
+            {
+                var resultado = await usuarioService.RegistrarUsuarioAsync(model);
+
+                if (resultado)
+                    return RedirectToAction("Index"); // Redirige al login
+
+                ModelState.AddModelError(string.Empty, "No se pudo registrar el usuario.");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
+        }
+
         return View(model);
     }
 
