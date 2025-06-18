@@ -1,5 +1,9 @@
+using System.Net;
+using System.Net.Http.Headers;
 using System.Security.Claims;
 using frontendnet.Services;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace frontendnet.Middlewares;
 

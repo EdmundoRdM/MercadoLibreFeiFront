@@ -55,3 +55,61 @@ C:\SecureCode\workspace\ps\MercadoLibreFeiFront\obj\Debug\net8.0\refint\frontend
 C:\SecureCode\workspace\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.pdb
 C:\SecureCode\workspace\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.genruntimeconfig.cache
 C:\SecureCode\workspace\ps\MercadoLibreFeiFront\obj\Debug\net8.0\ref\frontendnet.dll
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\appsettings.Development.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\appsettings.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.staticwebassets.runtime.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.exe
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.deps.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.runtimeconfig.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.dll
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.pdb
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.AssemblyInfoInputs.cache
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.AssemblyInfo.cs
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.csproj.CoreCompileInputs.cache
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.MvcApplicationPartsAssemblyInfo.cache
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.RazorAssemblyInfo.cache
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.RazorAssemblyInfo.cs
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.sourcelink.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.build.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.development.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.frontendnet.Microsoft.AspNetCore.StaticWebAssets.props
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.build.frontendnet.props
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.frontendnet.props
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.frontendnet.props
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.pack.json
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\scopedcss\bundle\frontendnet.styles.css
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.dll
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\refint\frontendnet.dll
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.pdb
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.genruntimeconfig.cache
+D:\migue\Desktop\Secure Code\ps\MercadoLibreFeiFront\obj\Debug\net8.0\ref\frontendnet.dll
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\appsettings.Development.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\appsettings.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.staticwebassets.runtime.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.exe
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.deps.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.runtimeconfig.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.dll
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\bin\Debug\net8.0\frontendnet.pdb
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.AssemblyInfoInputs.cache
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.AssemblyInfo.cs
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.csproj.CoreCompileInputs.cache
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.MvcApplicationPartsAssemblyInfo.cache
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.RazorAssemblyInfo.cache
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.RazorAssemblyInfo.cs
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.sourcelink.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.build.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.development.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.frontendnet.Microsoft.AspNetCore.StaticWebAssets.props
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.build.frontendnet.props
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.frontendnet.props
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.frontendnet.props
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\staticwebassets.pack.json
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\scopedcss\bundle\frontendnet.styles.css
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.dll
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\refint\frontendnet.dll
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.pdb
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\frontendnet.genruntimeconfig.cache
+D:\migue\University\node_Workspace\MercadoLibreFeiFront\obj\Debug\net8.0\ref\frontendnet.dll

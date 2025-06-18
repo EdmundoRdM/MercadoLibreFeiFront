@@ -1,4 +1,7 @@
+using System.Net.Http.Headers;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace frontendnet.Middlewares;
 

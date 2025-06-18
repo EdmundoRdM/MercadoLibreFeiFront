@@ -9,191 +9,199 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = frontendnet
 build_property.RootNamespace = frontendnet
-build_property.ProjectDir = C:\SecureCode\workspace\ps\MercadoLibreFeiFront\
+build_property.ProjectDir = D:\migue\University\node_Workspace\MercadoLibreFeiFront\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\SecureCode\workspace\ps\MercadoLibreFeiFront
+build_property.MSBuildProjectDirectory = D:\migue\University\node_Workspace\MercadoLibreFeiFront
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/Crear.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/Detalle.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcRGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/Editar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/Eliminar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Archivos/_DetallePartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Archivos/_DetallePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcX0RldGFsbGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Auth/CrearUsuario.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Auth/CrearUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxDcmVhclVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Auth/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Bitacora/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Bitacora/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQml0YWNvcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Carrito/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Carrito/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Carrito/_CardPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Carrito/_CardPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xfQ2FyZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/Crear.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/Detalle.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/Editar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/Eliminar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFbGltaW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Categorias/_DetallePartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Categorias/_DetallePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xfRGV0YWxsZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Comprar/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Comprar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Comprar/_CardPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Comprar/_CardPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhclxfQ2FyZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Home/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Perfil/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Pedidos/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Pedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Perfil/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Categorias.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Categorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/CategoriasAgregar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/CategoriasAgregar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXNBZ3JlZ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/CategoriasRemover.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/CategoriasRemover.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXNSZW1vdmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Crear.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Detalle.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Editar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Eliminar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/_CardPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/_CardPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXF9DYXJkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Productos/_CategoriasListadoPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Productos/_CategoriasListadoPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXF9DYXRlZ29yaWFzTGlzdGFkb1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/AccessDenied.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/Error.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/_Layout.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/_MenuDerPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/_MenuDerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51RGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/_MenuIzqPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/_MenuIzqPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51SXpxUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/Crear.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/Detalle.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/Editar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/Eliminar.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/Index.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/Usuarios/_DetallePartial.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/Usuarios/_DetallePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcX0RldGFsbGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/_ViewImports.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SecureCode/workspace/ps/MercadoLibreFeiFront/Views/_ViewStart.cshtml]
+[D:/migue/University/node_Workspace/MercadoLibreFeiFront/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

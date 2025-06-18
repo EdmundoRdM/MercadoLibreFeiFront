@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\frontendnet.csproj",
+      "projectUniqueName": "D:\\migue\\University\\node_Workspace\\MercadoLibreFeiFront\\frontendnet.csproj",
       "projectName": "frontendnet",
-      "projectPath": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\frontendnet.csproj",
+      "projectPath": "D:\\migue\\University\\node_Workspace\\MercadoLibreFeiFront\\frontendnet.csproj",
       "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "C:\\SecureCode\\workspace\\ps\\MercadoLibreFeiFront\\obj\\",
+      "outputPath": "D:\\migue\\University\\node_Workspace\\MercadoLibreFeiFront\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

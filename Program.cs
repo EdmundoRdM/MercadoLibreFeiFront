@@ -9,7 +9,10 @@ builder.Services.AddControllersWithViews();
 
 // Soporte para consultar el API
 var UrlWebApi = builder.Configuration["UrlWebApi"]!;
+
+
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddDataProtection();
 builder.Services.AddTransient<EnviaBearerDelegatingHandler>();
 builder.Services.AddTransient<RefrescaTokenDelegatingHandler>();
 builder.Services.AddHttpClient<AuthClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebApi!); });
@@ -38,6 +41,9 @@ builder.Services.AddHttpClient<CrearUsuarioClientService>(httpClient => { httpCl
     .AddHttpMessageHandler<EnviaBearerDelegatingHandler>()
     .AddHttpMessageHandler<RefrescaTokenDelegatingHandler>();
 builder.Services.AddHttpClient<ComprarClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebApi!); })
+    .AddHttpMessageHandler<EnviaBearerDelegatingHandler>()
+    .AddHttpMessageHandler<RefrescaTokenDelegatingHandler>();
+builder.Services.AddHttpClient<PedidosClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebApi!); })
     .AddHttpMessageHandler<EnviaBearerDelegatingHandler>()
     .AddHttpMessageHandler<RefrescaTokenDelegatingHandler>();
 

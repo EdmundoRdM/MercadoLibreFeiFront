@@ -23,4 +23,26 @@ public class AuthClientService(HttpClient client, IHttpContextAccessor httpConte
         var authProperties = new AuthenticationProperties();
         await httpContextAccessor.HttpContext?.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties)!;
     }
+
+    public async Task<string?> RefreshTokenAsync()
+    {
+        try
+        {
+            // Envía la cookie automáticamente (HttpClient maneja cookies)
+            var response = await client.PostAsync("/auth/refresh", null); 
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Deserializa la respuesta
+                var result = await response.Content.ReadFromJsonAsync<RefreshResponse>();
+                return result?.AccessToken;
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log del error (opcional)
+            Console.WriteLine($"Error refreshing token: {ex.Message}");
+        }
+        return null;
+    }
 }

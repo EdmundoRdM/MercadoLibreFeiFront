@@ -30,18 +30,20 @@ public class ComprarController(ProductosClientService productos, ComprarClientSe
     public async Task<IActionResult> Comprar(int productoId, int cantidad)
     {
         ViewBag.Url = configuration["UrlWebAPI"];
-
         try
         {
 
             var pedido = new
             {
-                usuarioid = "bd65fbfe-95ff-4bbf-ba14-610738f2eef0",
+                email = User.Identity.Name,
                 productos = new[]
                 {
                     new { productoid = productoId, cantidad = cantidad }
                 }
             };
+
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(pedido));
+
 
             await comprar.EnviarPedidoAsync(pedido);
             return RedirectToAction(nameof(Index));
@@ -52,8 +54,13 @@ public class ComprarController(ProductosClientService productos, ComprarClientSe
             if (ex.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 return RedirectToAction("Salir", "Auth");
         }
+        catch (Exception ex)
+        {
+            // Puedes poner un log aquí si estás usando uno
+            Console.WriteLine($"Error inesperado: {ex.Message}");
+        }
         
         ModelState.AddModelError("Nombre", "No ha sido posible realizar la acción. Inténtelo nuevamente.");
-        return View(null);
+        return RedirectToAction("Index");
     }
 }

@@ -1,13 +1,34 @@
 const apiBaseUrl = document.getElementById("carrito-wrapper").dataset.apiBaseUrl;
 
-
 // Borrar solo si venimos de una compra real
     if (sessionStorage.getItem("compra_en_proceso") === "true") {
         localStorage.removeItem("carrito");
         sessionStorage.removeItem("compra_en_proceso");
     }    
 
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", async function () {
+
+
+        const carritoLocal = JSON.parse(localStorage.getItem("carrito")) || [];
+
+        const respuesta = await fetch('/Carrito/ObtenerCarritoActualizado', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(carritoLocal)
+        });
+
+        if (respuesta.ok) {
+            const carritoActualizado = await respuesta.json();
+            console.log("Carrito actualizado:", carritoActualizado);
+            localStorage.setItem("carrito", JSON.stringify(carritoActualizado));
+        } else {
+            const errorText = await respuesta.text();
+            console.error("Error al obtener el carrito actualizado:", errorText);
+        }
+        
+
         const contenedor = document.getElementById("contenedor-carrito");
         const alerta = document.getElementById("alerta-vacio");
         const resumen = document.getElementById("resumen-carrito");

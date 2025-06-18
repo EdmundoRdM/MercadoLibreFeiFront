@@ -20,7 +20,10 @@ namespace frontendnet.Models
         [RegularExpression(@"^\d+\.?\d{0,2}$", ErrorMessage = "El valor del campo debe ser un precio válido.")]
         [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
         [Display(Name = "Precio")]
-        public decimal Precio { get; set; }
+        public decimal? Precio { get; set; }
+
+        [Display(Name = "Cantidad")]
+        public int? Cantidad { get; set; }
 
         [Display(Name = "Portada")]
         public int? ArchivoId { get; set; }

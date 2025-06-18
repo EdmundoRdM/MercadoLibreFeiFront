@@ -38,4 +38,33 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+
+    @if (TempData["EmailRegistrado"] != null)
+    {
+        <script>
+            // Guardar el email en localStorage solo si viene de un registro exitoso
+            localStorage.setItem('emailRegistrado', '@TempData["EmailRegistrado"]');
+            
+            // Opcional: Rellenar automáticamente el campo de email
+            document.addEventListener('DOMContentLoaded', function() {
+                const emailInput = document.getElementById('Email');
+                if (emailInput) {
+                    emailInput.value = localStorage.getItem('emailRegistrado') || '';
+                }
+            });
+        </script>
+    }
+    
+    <script>
+        // También puedes cargar el email al cargar la página (por si ya estaba guardado)
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedEmail = localStorage.getItem('emailRegistrado');
+            if (savedEmail) {
+                const emailInput = document.getElementById('Email');
+                if (emailInput) {
+                    emailInput.value = savedEmail;
+                }
+            }
+        });
+    </script>
 }

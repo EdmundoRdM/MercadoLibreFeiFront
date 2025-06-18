@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace frontendnet;
 
 [Authorize(Roles = "Usuario")]
-public class CarritoController(IConfiguration configuration, ComprarClientService comprarClientService) : Controller
+public class CarritoController(IConfiguration configuration, ComprarClientService comprarClientService, ProductosClientService productosClientService) : Controller
 {
     public IActionResult Index()
     {
@@ -48,7 +48,7 @@ public class CarritoController(IConfiguration configuration, ComprarClientServic
         {
             var pedido = new
             {
-                usuarioid = "bd65fbfe-95ff-4bbf-ba14-610738f2eef0", // este deberías obtenerlo del usuario autenticado
+                email = User.Identity.Name,
                 productos = carrito.Select(p => new
                 {
                     productoid = p.productoid,
@@ -72,5 +72,38 @@ public class CarritoController(IConfiguration configuration, ComprarClientServic
         ModelState.AddModelError("Nombre", "No ha sido posible realizar la acción. Inténtelo nuevamente.");
         return View("index");
     }
+
+    [HttpPost]
+    public async Task<IActionResult> ObtenerCarritoActualizado([FromBody] List<Carrito> carrito)
+    {
+        ViewBag.Url = configuration["UrlWebAPI"];
+
+        var productosActualizados = new List<object>();
+
+        foreach (var item in carrito)
+        {
+
+            var producto = await productosClientService.GetAsync(item.productoid);
+            
+            if (producto == null)
+            {
+                Console.WriteLine($"Producto con ID {item.productoid} no encontrado.");
+                continue;
+            }
+
+            productosActualizados.Add(new
+            {
+                productoid = 2,
+                titulo = producto.Titulo,
+                precio = producto.Precio,
+                archivoId = producto.ArchivoId,
+                categorias = producto.Categorias,
+                cantidad = item.cantidad 
+            });
+        }
+
+        return Json(productosActualizados);
+    }
+
 }
 

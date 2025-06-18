@@ -1,0 +1,80 @@
+@model DetallePedido
+
+@{
+    ViewData["Title"] = "Pedidos";
+    ViewData["SubTitle"] = "Detalle";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb small">
+        <li class="breadcrumb-item">
+            <a class="text-decoration-none" asp-action="Index">Listado de Pedidos</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">@ViewData["SubTitle"]</li>
+    </ol>
+</nav>
+
+<h2 class="text-center mb-3">@ViewData["Title"] <small class="text-muted fs-5">@ViewData["SubTitle"]</small></h2>
+
+<!-- Datos del Pedido -->
+<div class="card p-3 bg-dark text-white">
+    <h4 class="mb-3">Datos del Pedido</h4>
+    <dl class="row">
+        <dt class="col-sm-4">Usuario</dt>
+        <dd class="col-sm-8">@User.Identity.Name</dd>
+
+        <dt class="col-sm-4">Fecha</dt>
+        <dd class="col-sm-8">@Model.Pedido.Fecha.ToString("dd/MM/yyyy hh:mm tt")</dd>
+
+        <dt class="col-sm-4">Costo Total</dt>
+        <dd class="col-sm-8">@Model.Pedido.CostoTotal</dd>
+
+        <dt class="col-sm-4">Número de Productos</dt>
+        <dd class="col-sm-8">@Model.Pedido.NumeroProductos</dd>
+    </dl>
+</div>
+
+
+<!-- Productos Asociados -->
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title">Productos en el Pedido</h5>
+
+        @if (Model.Productos != null && Model.Productos.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-sm table-bordered table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Título</th>
+                            <th>Descripción</th>
+                            <th>Cantidad</th>
+                            <th>Precio Unitario</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var producto in Model.Productos)
+                        {
+                            <tr>
+                                <td>@producto.Titulo</td>
+                                <td class="small">@producto.Descripcion</td>
+                                <td>@producto.Cantidad</td>
+                                <td>@producto.Precio?.ToString("C")</td>
+                                <td>@((producto.Cantidad ?? 0) * (producto.Precio ?? 0)).ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p class="text-muted">Este pedido no contiene productos.</p>
+        }
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a class="btn btn-sm btn-outline-secondary" asp-action="Index" title="Regresar">Regresar</a>
+</div>
